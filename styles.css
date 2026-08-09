@@ -234,6 +234,17 @@ nav a:focus{
     grid-template-columns: 1fr;
     gap: 1.5rem;
 }
+
+.service-card{
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border-top: 4px solid var(--blue);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
