@@ -261,6 +261,31 @@ nav a:focus{
 .service-card p{
     color: var(--charcoal);
 }
+
+
+#results{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 4rem 0;
+}
+
+#results h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.results-intro{
+    max-width: 700px;
+    margin-bottom: 3rem;
+    color: var(--white);
+}
+
+.results-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
