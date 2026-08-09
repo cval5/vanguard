@@ -387,6 +387,17 @@ tbody tr:hover{
     margin-bottom: 2rem;
 }
 
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 /* MEDIA QUERIES (MEDIUM) */ 
