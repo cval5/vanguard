@@ -132,7 +132,13 @@ nav a:focus{
     color: var(--blue);
 }
 
-
+.menu-button{
+    background: transparent;
+    color: var(--white);
+    border: none;
+    font-size: 1.75rem;
+    cursor: pointer;
+}
 
 /* ADD TO "INNOVATION & INVESTMENT SECTION (Photo by Kevin Matos on Unsplash) */
  {
