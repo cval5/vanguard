@@ -218,6 +218,22 @@ nav a:focus{
     margin-bottom: 3rem;
     color: var(--charcoal);
 }
+
+#services{
+    padding-top: 2rem;
+}
+
+#services h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
