@@ -286,6 +286,18 @@ nav a:focus{
     flex-direction: column;
     gap: 3rem;
 }
+
+.results-table,
+.growth-chart{
+    width: 100%;
+}
+
+.results-table h3,
+.growth-chart h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
