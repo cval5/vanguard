@@ -298,6 +298,33 @@ nav a:focus{
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
+
+
+table{
+    width: 100%;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+th,td{
+    padding: 0.9rem;
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+}
+
+th{
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+tbody tr:hover{
+    background-color: #cccccc;
+}
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
