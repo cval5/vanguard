@@ -151,6 +151,22 @@ nav a:focus{
     overflow: hidden;
 }
 
+.hero-content{
+    width: 90%;
+    max-width: 900px;
+    color: var(--white);
+}
+
+.hero-content h2{
+    position: relative;
+    display: inline-block;
+    padding-left: 4rem;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
  {
     content: "";
