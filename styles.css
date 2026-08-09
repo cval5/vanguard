@@ -66,6 +66,20 @@ table {
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
+html{
+    min-width: 400px;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-width: 400px;
+    background-color: var(--black);
+    color: var(--black);
+    font-family: var(--font);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
 .container {
     width: 90%;
