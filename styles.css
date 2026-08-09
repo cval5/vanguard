@@ -245,6 +245,22 @@ nav a:focus{
         transform 0.3s ease,
         box-shadow 0.3s ease;
 }
+
+.service-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.service-card h3{
+    color: var(--black);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.service-card p{
+    color: var(--charcoal);
+}
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
