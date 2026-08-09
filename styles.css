@@ -344,7 +344,7 @@ tbody tr:hover{
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
+    transition: height 0.5s ease-in-out;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
