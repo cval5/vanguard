@@ -514,3 +514,36 @@ footer a:focus{
 }
 
 /* MEDIA QUERIES (LARGE) */
+@media screen and (min-width: 900px;){
+    body{
+        font-size: 1rem;
+    }
+
+    header{
+        padding: 1.25rem 0;
+    }
+
+    .brand h1{
+        font-size: 1.8rem;
+    }
+
+    .hero-content h2{
+        font-size: 4.5rem;
+    }
+
+    .hero-content p{
+        font-size: 1.5rem;
+    }
+
+    #about h2, #services h2, #results h2, #contact h2{
+        font-size: 2.5rem;
+    }
+
+    .service-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service-card{
+        padding: 2.5rem;
+    }
+}
