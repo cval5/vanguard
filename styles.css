@@ -95,7 +95,7 @@ header{
 
 .header-container{
     display: flex;
-    justify-content: space between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -514,7 +514,7 @@ footer a:focus{
 }
 
 /* MEDIA QUERIES (LARGE) */
-@media screen and (min-width: 900px;){
+@media screen and (min-width: 900px);{
     body{
         font-size: 1rem;
     }
@@ -545,20 +545,5 @@ footer a:focus{
 
     .service-card{
         padding: 2.5rem;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .hero-content h2{
-        font-size: 5rem;
-    }
-
-    #hero{
-        height: 85vh;
-    }
-
-    #about, #results, #contact{
-        padding-top: 5rem;
-        padding-bottom: 5rem;
     }
 }
