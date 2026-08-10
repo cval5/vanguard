@@ -468,6 +468,23 @@ footer a:focus{
 }
 
 /* MEDIA QUERIES (MEDIUM) */ 
+@media screen and (min-width: 600px){
+
+    nav{
+        display: block;
+    }
+
+    .menu-button{
+        display: none;
+    }
+
+    .hero-content h2{
+        font-size: 3.5rem;
+    }
+
+    .service-grid{
+        grid-template-columns: 1fr 1fr;
+    }
 
     #results {
         grid-template-columns: 1fr 1fr;
@@ -479,7 +496,7 @@ footer a:focus{
     .results-table {
         width: 50%;
     }
-    .bar-chart {
+    .growth-chart {
         width: 50%;
     }
 
