@@ -547,3 +547,18 @@ footer a:focus{
         padding: 2.5rem;
     }
 }
+
+@media screen and (min-width: 1200px){
+    .hero-content h2{
+        font-size: 5rem;
+    }
+
+    #hero{
+        height: 85vh;
+    }
+
+    #about, #results, #contact{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
