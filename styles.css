@@ -441,6 +441,32 @@ textarea{
     transform: translateY(-2px);
 }
 
+
+footer{
+    background-color: var(--charcoal);
+    color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer p{
+    margin-bottom: 0.5rem;
+}
+
+footer a{
+    color: var(--white);
+}
+
+footer a:hover,
+footer a:focus{
+    color: var(--blue);
+}
+
+.educational{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
 /* MEDIA QUERIES (MEDIUM) */ 
 
     #results {
